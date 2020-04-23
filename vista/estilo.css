@@ -1,0 +1,13 @@
+body{
+font-family: 'Raleway', sans-serif;
+}
+.container-fluid{
+
+	height: 100px;
+	position: center;
+}
+.sticky-top-2{
+	position:-webkit-sticky;
+	position:sticky;
+	top: 56px;
+	z-index:1020}
