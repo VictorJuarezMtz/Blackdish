@@ -1,0 +1,229 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  color: black;/*color de letra del cuerpo*/
+  /*background: #f2f2f2;*//*color de fondo*/ 
+  font-size: 1em;
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+
+.formularioregistro{
+  margin: 5px;
+  width: 95%;
+  margin: 20px auto;
+  background:#2E3B40 ;
+  border-radius: 10px;
+  color: white;
+}
+
+
+h1 {
+  font-size: 2.3em;
+  line-height: 1.3em;
+  margin: 15px 0;
+  text-align: center;
+  font-weight: 300;
+}
+ 
+p {
+  text-align: justify;
+  margin: 0 0 1.5em 0;
+}
+ 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*cabecera*/
+#main-header {
+  background: #262626;
+  color: #F2F2F2 ;
+  height: 50px;
+} 
+  #main-header a {
+    color: #F2F2F2;/*letra*/
+  }
+ 
+/*
+ * Logo esta el espaciado la decoracion y color 
+ */
+#logo-header {
+  float: left;
+  padding: 15px 0 0 20px;
+  text-decoration: none;
+  display: block;
+  font-size: 1.2em;
+  color: #0b76a6;
+}
+  /* visitado: Es aquel estado que tiene cualquier enlace por defecto. Se le define con el atributo «link»
+Visitado: Es el estado opuesto al primero, cuando ya hemos visitado dicho enlace. Para definirlo utilizamos el atributo «visited» (obvio, ¿verdad?)
+Activo: Este estado es exactamente cuando pulsamos el enlace; sí y solo sí lo estamos pulsando (en el momento que dejamos de pulsarlo ya no es ese estado. Se define con el atributo «active»
+Hover: Es ese estado en el que el ratón está encima del enlace, da mucho juego para los menúes y verás que es muy utilizado. Se define con «hover».*/
+a {text-decoration:none !important;}
+a:link {color: black;}
+a:visited {color:black;}
+a:active {color: black;}
+a:hover {color: black;}
+
+
+
+  /*botonones*/
+  
+.button{
+  
+  display: inline-block;
+  padding: 8px 10px;
+  margin-bottom: 2;
+  font-size: 17px;
+  font-weight: normal;
+  line-height: .17;
+  text-align: center;
+  background: #734432;
+  color: #F2F2F2;
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 1px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+       -o-user-select: none;
+          user-select: none;
+
+
+  }
+
+  
+  
+  
+.boton_personalizado{
+    text-align: left;
+  cursor: pointer;
+    color: #F2F2F2  ;
+    height: 50px;
+    width: 100%;
+      border: 2px solid transparent;
+
+     border-radius: 1px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+       -o-user-select: none;
+          user-select: none;
+          background: #734432;
+    
+
+  
+    
+  }
+
+
+.texto{
+color: white;
+
+}
+.boton_p{
+  cursor: pointer;
+    color: white;
+    height: 50px;
+    width: 500px;
+    text-align: center;
+      border: 2px solid transparent;
+     border-radius: 1px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+       -o-user-select: none;
+          user-select: none;
+          background: gold;
+    
+  }
+  
+ 
+/*
+ * Navegación
+ */
+nav {
+  float: right;
+}
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 20px;
+  }
+  
+    nav ul li {
+      display: inline-block;
+      line-height: 50px;
+    }
+      
+      nav ul li a {
+        display: block;
+        padding: 0 10px;
+        text-decoration: none;
+      }
+      
+        nav ul li a:hover {
+          background: #2E3B40;/*color de cuadros ul hover*/
+        }
+
+
+
+
+/*contenido*/
+#login-content {
+  background: #2E3B40 ;/*el color de la seccion de main content*/
+  width: 70%;/*el ancho ed la seccion */
+  max-width: 400px;/*es el ancho maximo*/
+  margin: 30px auto;/*este es el margen de espacio de arriba que es margin */
+  box-shadow: 0 0 10px rgba(0,0,0,.3);/*el box shadow es lamsobra de fondo*/
+  border-radius: 10px;/*es el borde */
+  color: white;
+}
+ 
+  #login-content header,
+  #login-content .content {
+    padding: 30px;
+  }
+
+#main-content {
+  background: #2E3B40;/*el color de la seccion de main content*/
+  width: 100%;/*el ancho ed la seccion */
+  max-width: 100%;/*es el ancho maximo*/
+  margin: 5px auto;/*este es el margen de espacio de arriba que es margin */
+  box-shadow: 0 0 10px rgba(0,0,0,.3);/*el box shadow es lamsobra de fondo*/
+  border-radius: 0px;/*es el borde */
+  color: #F2F2F2;
+
+
+}
+ 
+  #main-content header,
+  #main-content .content {
+    padding: 40px;
+
+  }
+
+
+
+/*pie*/
+#main-footer {
+  
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+  #main-footer p {
+    margin: 0;
+  }
+  
+  #main-footer a {
+    color: white;
+  }
+
