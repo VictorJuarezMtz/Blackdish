@@ -27,6 +27,7 @@ src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 body { 
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+ 
 }
 
 #navbar {
